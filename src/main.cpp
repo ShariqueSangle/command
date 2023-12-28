@@ -68,8 +68,12 @@ void response(int client){
      }
    }
    std::cout<<"file requested : "<<filename<<std::endl;
+   
+   char folder[500] = "./files/";
+
+   strcat(folder,filename);
   
-   std::ifstream input(filename,std::ios::binary);
+   std::ifstream input(folder,std::ios::binary);
    
    if(input.is_open()){
      setHeader(client,fileExtension);
