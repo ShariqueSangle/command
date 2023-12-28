@@ -106,7 +106,7 @@ int main(){
  int serverSocket = socket(AF_INET,SOCK_STREAM,0);
  
  if(serverSocket < 0){
-   std::cout<<"failed to create socket"<<std::endl;
+   std::cout<<"failed to create socket closing."<<std::endl;
    return 1;
  }
  
