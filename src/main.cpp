@@ -5,6 +5,7 @@
 #include <thread>
 #include <fstream>
 #include <string>
+#include <functions.h>
 
 void setHeader(int client,const char* extention){
   
@@ -125,6 +126,8 @@ int main(){
  
  std::cout<<"server is listening on port 3000"<<std::endl;
  
+ execute();
+
  while(true){
    int client = accept(serverSocket,nullptr,nullptr);
   
