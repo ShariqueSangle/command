@@ -1,6 +1,0 @@
-
-<<<<<<< Updated upstream
-this is a stash and a stoosh
-=======
-this is fart  stash
->>>>>>> Stashed changes
