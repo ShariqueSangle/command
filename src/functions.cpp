@@ -1,6 +1,8 @@
 #include <iostream>
 #include <map>
 
+#define pi 3.14
+
 void cat(char* value1,const char* value2){
  int size = 0;
  int counter = 0;
