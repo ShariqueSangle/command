@@ -2,3 +2,6 @@
 build/*
 
 keys/*
+
+src/lib/*
+
