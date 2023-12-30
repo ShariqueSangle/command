@@ -2,7 +2,6 @@
 #include <map>
 
 void cat(char* value1,const char* value2){
-  // i ve changed this comment 
  int size = 0;
  int counter = 0;
 
