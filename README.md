@@ -1,2 +1,1 @@
-# command
-just for learning
+**GLFW CLONED LIBRARY**
