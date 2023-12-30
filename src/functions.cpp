@@ -2,7 +2,7 @@
 #include <map>
 
 void cat(char* value1,const char* value2){
-  // this is like strcat function in c
+  // i ve changed this comment 
  int size = 0;
  int counter = 0;
 
