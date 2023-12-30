@@ -18,7 +18,9 @@ add_library(glfw3 STATIC IMPORTED)
 set_target_properties(glfw3 PROPERTIES IMPORTED_LOCATION ${CMAKE_CURRENT_SOURCE_DIR}/lib/libglfw3.a)
 
 target_link_libraries(binary PRIVATE
-    opengl32
-    gdi32
-    glfw3
+opengl32
+gdi32
+glfw3
 )
+
+set_target_properties(binary PROPERTIES WIN32_EXECUTABLE true)
